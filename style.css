@@ -1,0 +1,89 @@
+#pomodoro-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    border:1px solid #ddd2ff;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd2ff;
+    
+}
+
+#container h1{
+    font-family: 'Architects Daughter', cursive;
+    color:#2E1E61;
+}
+
+#timer{
+    font-family: 'Architects Daughter', cursive;
+    color:#2E1E61;
+    font-size: 50px;
+    margin: 10px auto;
+    border: 5px solid #2E1E61;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select: none;
+    cursor:default;
+}
+
+#time{
+   margin-top: 70px;
+   z-index: 1;
+   position: relative;
+}
+
+#filler{
+    background: #ddffcc;
+    height: 0px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer{
+    font-family: monospace;
+    align-self: flex-end;
+
+}
+
+#buttons button{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:#4da6ff;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    padding: 5px;
+    width: 115px;
+    margin: 10px auto;
+    font-size: 16px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+#buttons button#shortBreak{
+    background: #0c0;
+}
+
+#buttons button#longBreak{
+    background: #080;
+}
+
+
+#buttons button#stop{
+    background: #f00;
+}
